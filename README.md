@@ -4,7 +4,7 @@
 
 ### Contributors
 **Yaseer Buruji Ibrahim** - ibyaseer@mail.ru
-[Buruji Yaseer] (https://github.com/Meizzy)
+[Buruji Yaseer](https://github.com/Meizzy)
 
 
 ### About Project
