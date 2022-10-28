@@ -1,0 +1,12 @@
+<launch>
+	<node pkg = 'turtlesim' type = 'turtlesim_node' name = 'simulator' >
+		<param name = 'background_b' value = '0' /> 
+		<param name = 'background_g' value = '0' /> 
+		<param name = 'background_r' value = '0' />
+	</node>
+	<node pkg = 'turtlesim' type = 'turtle_teleop_key' name = 'teleoperator'>
+		<remap from = '/turtle1/cmd_vel' to = '/victim/cmd_vel'/>
+	</node>
+	<node pkg = 'turtle_chaser' type = 'chaser.py' name = 'homework_1' output = 'screen' >
+	</node>
+</launch>
