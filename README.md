@@ -40,4 +40,4 @@ The execution can be started simply using the following command:
 $ roslaunch turtle_chaser ready_launch.launch
 ```
 
-The file `ready_launch.launch` is a launch file that contains the instruction to implement the nodes. Unfortunately, the bag file used to run the program couldn't be uploaded (too large), so you can use your bag file, by slightly modifying the directory in the launch file.
+The file `ready_launch.launch` is a launch file that contains the instruction to implement the nodes. 
