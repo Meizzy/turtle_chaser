@@ -12,9 +12,9 @@
 A ROS node that manipulates the turtlesim node. By default  when the node is launched, a turtle named `turtle1` approaches a turtle2 named `victim`, that has been spawned in a random position. Further using the function of the `turtle_teleop_key`, the position of the `victim` can be manipulated using inputs from the keyboard, and the `turtle1` in turn, chases the `victim`.
 
 ### Prerequisites
-*Python 3.0
-*ROS
-*Turtlesim
+* Python 3.0
+* ROS
+* Turtlesim
 
 
 #### Installation
